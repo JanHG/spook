@@ -235,11 +235,11 @@
     },
     "automation_unknown_floor_references": {
       "description": "Spook har fundet et spøgelse i dine automatiseringer 👻\n\nMens Spook svæver rundt, krydsede den vej(e) med følgende automatisering:\n\n[{automation}]({edit}) (`{entity_id}`)\n\nDenne automatisering henviser til følgende steder, som er ukendt for Home Assistant:\n\n{floors}\n\n\n\nHvis du vil rette denne fejl, [rediger automatiseringen]({edit}) og fjerne brugen af disse manglende steder.\n\nSpook 👻er din ven.",
-      "title": "Ukendte steder er benyttet i {automation}"
+      "title": "Ukendte steder er benyttet i: {automation}"
     },
     "automation_unknown_label_references": {
       "description": "Spook har fundet et spøgelse i dine automatiseringer 👻\n\nMens Spook svæver rundt, krydsede den vej(e) med følgende automatisering:\n\n[{automation}]({edit}) (`{entity_id}`)\n\nDenne automatisering henviser til følgende labels, som er ukendt for Home Assistant:\n\n{labels}\n\n\n\nHvis du vil rette denne fejl, [rediger automatiseringen]({edit}) og fjerne brugen af disse manglende labels.\n\nSpook 👻er din ven.",
-      "title": "Ukendte labels benyttet i automation}"
+      "title": "Ukendte labels benyttet i: {automation}"
     },
     "automation_unknown_service_references": {
       "description": "Spook har fundet et spøgelse i dine automatiseringer 👻\n\nMens han svævede rundt, krydsede Spook vejen med følgende automatisering:\n\n[{automation}]({edit}) (`{entity_id}`)\n\nDenne automatisering refererer til følgende tjenester, som er ukendte for Home Assistant:\n\n{services}\n\n\n\n[Rediger automatiseringen]({edit}) for at rette denne fejl og fjerne brugen af disse ikke-eksisterende tjenester.\n\nSpook 👻 er din ven.",
@@ -287,11 +287,11 @@
     },
     "script_unknown_floor_references": {
       "description": "Spook har fundet et spøgelse i dine scripts 👻\n\nMens Spook svæver rundt, krydsede den vej(e) med følgende script:\n\n[{script}]({edit}) (`{entity_id}`)\n\nDette script henviser til følgende steder, som er ukendt for Home Assistant:\n\n{floors}\n\n\n\nHvis du vil rette denne fejl, [rediger scriptet]({edit}) og fjerne brugen af disse manglende steder.\n\nSpook 👻 er din ven.",
-      "title": "Ukendte steder benyttet i {script}"
+      "title": "Ukendte steder benyttet i: {script}"
     },
     "script_unknown_label_references": {
       "description": "Spook har fundet et spøgelse i dine scripts 👻\n\nMens Spook svæver rundt, krydsede den vej(e) med følgende script:\n\n[{script}]({edit}) (`{entity_id}`)\n\nDette script henviser til følgende labels, som er ukendt for Home Assistant:\n\n{labels}\n\n\n\nHvis du vil rette denne fejl, [rediger scriptet]({edit}) og fjerne brugen af disse manglende labels.\n\nSpook 👻 er din ven.",
-      "title": "Ukendte labels benyttet i {script}"
+      "title": "Ukendte labels benyttet i: {script}"
     },
     "switch_as_x_unknown_source": {
       "description": "Spook har fundet et spøgelse i din Switch som X hjælpere 👻\n\nMens Spook svæver rundt, krydsede den vej(e) med følgende hjælpere:\n\n{helper} (`{entity_id}`)\n\nDenne hjælper har en kildekontakt enhed, der er ukendt for Home Assistant:\n\n`{source}`\n\n\n\nHvis du vil rette fejlen, skal du redigere hjælperen og justere kildeenheden (eller fjerne hjælperen) og genstarte Home Assistant.\n\nSpook 👻 er din ven.",
